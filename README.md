@@ -1,8 +1,8 @@
 # FastOS ⚡︎
 Finally i just make my own OS from scratch ^_^
 
-FastOS a simple operating system made from scratch , it can handle keyboard interrupt ,
-with a shell , with some commands , and a built‑in ChatBot.
+FastOS a simple operating system made from scratch , using assembly and c , it can handle keyboard inputs ,
+it have a shell with some commands , and a built‑in ChatBot.
 
 ![image alt](https://github.com/SonicExE404/FastOS/blob/330e8e93859ca48c25695e6463d70180e121f84d/FastOS%20(2)%20(1).png)
 
