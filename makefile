@@ -14,6 +14,8 @@ CC = gcc
 NASM = nasm
 LD = ld
 GRUB = grub-mkrescue
+#grub2 hosts use this command
+#GRUB = grub2-mkrescue
 
 # Build everything
 all: $(ISO_NAME)
@@ -34,3 +36,7 @@ $(KERNEL_BIN): $(KERNEL_OBJ) $(BOOT_OBJ)
 $(ISO_NAME): $(KERNEL_BIN)
 	mv $(KERNEL_BIN) $(ISO_DIR)/boot/kernel
 	$(GRUB) -o $(ISO_NAME) $(ISO_DIR)
+
+clean:
+	rm Fast.iso Fast/boot/kernel boot.o kernel.o
+
