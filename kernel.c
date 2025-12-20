@@ -126,7 +126,6 @@ void read_line(char *buffer) {
     buffer[i] = '\0';                 
 };
 
-//FastChat Section ----_----
 #define MAX_KEYWORDS 10
 #define MAX_INPUT 64
 
