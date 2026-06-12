@@ -28,13 +28,13 @@ FastChat is just a simple chatBot designed to help you using the OS but its not 
 
 # Running
 
-## Requirments
+  ## Requirments
 
--GCC with i386 target (or cross‑compiler)
+- GCC with i386 target (or cross‑compiler)
 
--NASM
+- NASM
 
--GRUB tools
+- GRUB tools
 
 then type this:
 
@@ -46,3 +46,10 @@ then you can use an emulator like qemu:
 ```bash 
 qemu-system-i386 Fast.iso
 ```
+OR :
+- you can directly download the iso file and use it with a vbox.
+
+
+
+
+
