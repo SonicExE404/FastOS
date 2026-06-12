@@ -1,5 +1,5 @@
 # FastOS ⚡︎
-Finally i just make my own OS from scratch ^_^
+Finally i just created my own OS from scratch ^_^
 
 FastOS a simple operating system made from scratch , using assembly and c , it can handle keyboard inputs ,
 it have a shell with some commands , and a built‑in ChatBot.
